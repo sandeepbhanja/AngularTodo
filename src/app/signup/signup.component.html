@@ -1,0 +1,8 @@
+<form action="" class="flex flex-col justify-center items-center mt-64">
+    <label for="username">Username</label>
+    <input type="text" class="flex justify-center items-center border-b-2 border-gray-400 m-5" [formControl]="username">
+    <label for="password">Password</label>
+    <input type="password" [formControl]="password" class="flex justify-center items-center border-b-2 border-gray-400 m-5">
+    <button class="flex justify-center items-center p-2 m-5 font-white bg-green-400 rounded-xl hover:bg-green-700" type="submit" (click)="signUpUser()">Sign Up</button>
+    <p>Have an account? <span (click)="clickSignIn()">Sign In</span></p>
+</form>

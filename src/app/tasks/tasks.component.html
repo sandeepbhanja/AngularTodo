@@ -1,0 +1,8 @@
+<div class="flex flex-col w-full h-full flex-col justify-center items-center m-auto">
+    <app-header></app-header>
+    <div class="flex justify-around items-center flex-wrap">
+        @for (t of todo; track $index) {
+            <app-task-list [task]="t" class="flex justify-around items-center" (todoTaskComplete)="removeTask($event)"></app-task-list>
+        }
+    </div>
+</div>
