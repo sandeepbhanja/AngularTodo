@@ -1,0 +1,50 @@
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    height: 100px;
+}
+
+
+.grid-container {
+margin: 0%;
+    display: flex;
+    width: 100%;
+    height:62px;
+}
+
+#div_1 {
+    flex: 0 0 5px;
+    /* Takes 5px width and doesn't grow or shrink */
+}
+
+#div_2{
+    flex:0 0 455px;
+}
+
+#div_3{
+    flex:0 0 230px;
+}
+
+#div_4{
+    flex:0 0 245px;
+}
+#div_5{
+    flex:0 0 251px
+}
+#div_6{
+    flex:0 0 251px
+}
+
+
+
+
+.grid-container div {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+
+
+}

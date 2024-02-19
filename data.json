@@ -1,0 +1,53 @@
+{
+  "Data": [
+    {
+      "name": "Product A",
+      "size": 1000,
+      "color": "#FF0000",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "name": "Product B",
+      "size": 750,
+      "color": "#0000FF",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "name": "Product C",
+      "size": 500,
+      "color": "#FFFF00",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "name": "Product D",
+      "size": 300,
+      "color": "#00FF00",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "name": "Product E",
+      "size": 200,
+      "color": "#FF00FF",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "name": "Product F",
+      "size": 150,
+      "color": "#C0C0C0",
+      "x": 5,
+      "y": 1
+    },
+    {
+      "name": "Product G",
+      "size": 100,
+      "color": "#808080",
+      "x": 6,
+      "y": 1
+    }
+  ]
+}
